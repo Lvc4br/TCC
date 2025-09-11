@@ -9,7 +9,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu Desktop */}
-        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
+        <ul className="nav-links">
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Investimentos</a></li>
             <li><a href="#">IA Assistente</a></li>
@@ -19,15 +19,15 @@ const Navbar = () => {
 
         {/* Ações do Usuário */}
         <div className="nav-actions">
-            <FaBell size={20} className="notifications" />
+            
             <div className="user-profile">
             <img src="/user-avatar.png" alt="Usuário" className="avatar" />
             </div>
         </div>
 
         {/* Botão Hamburguer Mobile */}
-        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-            <FaBars size={20} />
+        <div className="hamburger">
+            
         </div>
     </nav>
   )
