@@ -8,7 +8,6 @@ const Navbar = () => {
             <img src="/logo-aureus.png" alt="Aureus Logo" />
         </div>
 
-        {/* Menu Desktop */}
         <ul className="nav-links">
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Investimentos</a></li>
@@ -17,7 +16,6 @@ const Navbar = () => {
             <li><a href="#">Configurações</a></li>
         </ul>
 
-        {/* Ações do Usuário */}
         <div className="nav-actions">
             
             <div className="user-profile">
@@ -25,7 +23,6 @@ const Navbar = () => {
             </div>
         </div>
 
-        {/* Botão Hamburguer Mobile */}
         <div className="hamburger">
             
         </div>
