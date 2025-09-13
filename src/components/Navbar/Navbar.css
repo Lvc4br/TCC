@@ -15,6 +15,7 @@ nav .logo{
     font-weight: 700;
     background: linear-gradient(90deg, #bfa14a 0%, #8c6f1d 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #bfa14a;
 }
@@ -28,6 +29,7 @@ nav ul li{
     font-weight: 500;
     background: linear-gradient(90deg, #bfa14a 0%, #8c6f1d 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #bfa14a;
     transition: color 0.3s ease;
