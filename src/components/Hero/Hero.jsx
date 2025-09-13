@@ -3,7 +3,7 @@ import './hero.css'
 
 const hero = () => {
   return (
-    <div className="dashboard">
+    <section className="dashboard">
       <h2>Bem-vindo, Luca</h2>
         <div className="cards">
           <div className="card">💰 Saldo Atual: R$ 15.200</div>
@@ -11,7 +11,7 @@ const hero = () => {
           <div className="card">📊 Investimentos: 8 ativos</div>
           <div className="card">🎯 Meta: R$ 5.000 (80%)</div>
         </div>  
-    </div>    
+    </section>    
         
     
   )
