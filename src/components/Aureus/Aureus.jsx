@@ -63,28 +63,28 @@ export default function Aureus() {
 
         {activeView === "tables" && (
           <div className="panel">
-            <h3>📊 Análise de Tabelas</h3>
+            <h3> Análise de Tabelas</h3>
             <p>Aqui você verá tabelas financeiras processadas pela IA.</p>
           </div>
         )}
 
         {activeView === "charts" && (
           <div className="panel">
-            <h3>📈 Gráficos Financeiros</h3>
+            <h3> Gráficos Financeiros</h3>
             <p>Aqui entram os gráficos de evolução dos investimentos.</p>
           </div>
         )}
 
         {activeView === "market" && (
           <div className="panel">
-            <h3>🌎 Mercado em Tempo Real</h3>
+            <h3> Mercado em Tempo Real</h3>
             <p>Aqui você acompanha cotações e tendências de ativos.</p>
           </div>
         )}
 
         {activeView === "calculator" && (
           <div className="panel">
-            <h3>🧮 Calculadora Financeira</h3>
+            <h3> Calculadora Financeira</h3>
             <p>Simule metas e rendimentos personalizados.</p>
           </div>
         )}
